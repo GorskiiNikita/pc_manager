@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='sound_controller.css') }}">
+</head>
+<body>
+    <input type="range" class="sound-controller" value="{{ current_volume }}">
+    <script src="{{ url_for('static', filename='sound_controller.js') }}"></script>
+</body>
+</html>
